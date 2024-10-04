@@ -696,6 +696,12 @@ footer {
 
 }
 
+@media screen and (min-width:700px) {
+    .btn-menu {
+        display: none;
+    }
+}
+
 @media screen and (max-width:700px) {
     body {
         overflow-x: hidden;
